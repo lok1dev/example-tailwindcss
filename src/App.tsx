@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import UsersList from "./Five/UsersList";
+import ReviewForm from "./Four/ReviewForm";
+import UserProfile from "./One/UserProfile";
+import Subscription from "./Seven/Subscription";
+import Notification from "./Six/Notification";
+import Collections from "./Three/Collections";
+import JobList from "./Two/JobList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex min-h-screen w-full items-center justify-center bg-[#E6EFFA]">
+      {/* <UserProfile /> */}
+      {/* <JobList /> */}
+      {/* <Collections /> */}
+      {/* <ReviewForm /> */}
+      {/* <UsersList /> */}
+      {/* <Notification /> */}
+      <Subscription />
     </div>
   );
 }
