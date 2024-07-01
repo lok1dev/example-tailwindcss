@@ -1,5 +1,7 @@
+import JobPositions from "./Eight/JobPositions";
 import UsersList from "./Five/UsersList";
 import ReviewForm from "./Four/ReviewForm";
+import List from "./Nine/List";
 import UserProfile from "./One/UserProfile";
 import Subscription from "./Seven/Subscription";
 import Notification from "./Six/Notification";
@@ -15,7 +17,9 @@ function App() {
       {/* <ReviewForm /> */}
       {/* <UsersList /> */}
       {/* <Notification /> */}
-      <Subscription />
+      {/* <Subscription /> */}
+      {/* <JobPositions /> */}
+      <List />
     </div>
   );
 }
